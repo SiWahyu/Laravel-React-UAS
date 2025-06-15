@@ -31,7 +31,7 @@ cd Laravel-React-UAS
 ```
 
 ```bash
-composer instal
+composer install
 ```
 
 ```bash
