@@ -43,13 +43,13 @@ php artisan key:generate
 ```
 
 ```bash
-php php artisan migrate
+php artisan migrate
 ```
 
 ```bash
-php php artisan db:seed
+php artisan db:seed
 ```
 
 ```bash
-php php artisan serve \ gunakan virtual host domain laragon
+php artisan serve \ gunakan virtual host domain laragon
 ```
