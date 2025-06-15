@@ -43,11 +43,11 @@ php artisan key:generate
 ```
 
 ```bash
-php php artisan migrate --seed
+php php artisan migrate
 ```
 
 ```bash
-php php artisan migrate --seed
+php php artisan db:seed
 ```
 
 ```bash
