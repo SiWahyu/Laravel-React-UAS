@@ -42,9 +42,14 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-````bash
+```bash
 php php artisan migrate --seed
+```
 
 ```bash
-php artisan serve \ gunakan virtual host domain laragon
-````
+php php artisan migrate --seed
+```
+
+```bash
+php php artisan serve \ gunakan virtual host domain laragon
+```
