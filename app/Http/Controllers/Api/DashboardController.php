@@ -14,18 +14,9 @@ class DashboardController extends Controller
     {
 
         return response()->json([
-            'product' => [
-                'name' => 'Product',
-                'total' => Product::count()
-            ],
-            'category' => [
-                'name' => 'Category',
-                'total' => Category::count()
-            ],
-            'supplier' => [
-                'name' => 'Supplier',
-                'total' => Supplier::count()
-            ],
+            'product_total' =>  Product::count(),
+            'category_total' => Category::count(),
+            'supplier' => Supplier::count(),
         ], 200);
     }
 }
